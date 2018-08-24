@@ -1,0 +1,1 @@
+java -mx500m -cp "/media/resbi/DATA/Gits/Maxent/maxent.jar:maxent.jar" density.Explain -l /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_6.lambdas -c /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_6.asc /media/resbi/DATA/Gits/Maxent/coverages

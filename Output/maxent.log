@@ -1,0 +1,464 @@
+Fri Aug 24 23:10:38 CST 2018
+MaxEnt version 3.4.1
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/cld6190_ann.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/dtr6190_ann.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/ecoreg.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/frs6190_ann.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/h_dem.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/pre6190_ann.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/pre6190_l1.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/pre6190_l10.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/pre6190_l4.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/pre6190_l7.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/tmn6190_ann.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/tmp6190_ann.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/tmx6190_ann.asc
+Checking header of /media/resbi/DATA/Gits/Maxent/coverages/vap6190_ann.asc
+Reading samples from alltrain.csv
+Read samples: max memory 477626368, total allocated 295174144, free 127883528, used 167290616, increment 4126664
+Extractor: max memory 477626368, total allocated 295174144, free 120059592, used 175114552, increment 7823936
+Extracting random background and sample data
+648658 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=/media/resbi/DATA/Gits/Maxent/Output samplesfile=/media/resbi/DATA/Gits/Maxent/samples/alltrain.csv environmentallayers=/media/resbi/DATA/Gits/Maxent/coverages randomtestpoints=50 maximumiterations=1000 threads=8
+Species: bradypus_variegatus bradypus_variegatus_0 bradypus_variegatus_1 bradypus_variegatus_2 bradypus_variegatus_3 bradypus_variegatus_4 bradypus_variegatus_5 bradypus_variegatus_6 bradypus_variegatus_7 bradypus_variegatus_8 bradypus_variegatus_9 microryzomys_minutus microryzomys_minutus_0 microryzomys_minutus_1 microryzomys_minutus_2 microryzomys_minutus_3 microryzomys_minutus_4 microryzomys_minutus_5 microryzomys_minutus_6 microryzomys_minutus_7 microryzomys_minutus_8 microryzomys_minutus_9
+Layers: cld6190_ann dtr6190_ann ecoreg frs6190_ann h_dem pre6190_ann pre6190_l1 pre6190_l10 pre6190_l4 pre6190_l7 tmn6190_ann tmp6190_ann tmx6190_ann vap6190_ann
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: /media/resbi/DATA/Gits/Maxent/Output
+samplesfile: /media/resbi/DATA/Gits/Maxent/samples/alltrain.csv
+environmentallayers: /media/resbi/DATA/Gits/Maxent/coverages
+randomtestpoints: 50
+maximumiterations: 1000
+threads: 8
+
+getSamples: max memory 477626368, total allocated 295174144, free 109951288, used 185222856, increment 10108304
+Time since start: 1.562
+Making features
+makeFeatures: max memory 477626368, total allocated 295698432, free 243709848, used 51988584, increment -133234272
+bradypus_variegatus: 
+Regularization values: linear/quadratic/product: 0.173, categorical: 0.250, threshold: 1.430, hinge: 0.500
+57 samples
+Density: max memory 477626368, total allocated 295698432, free 232853216, used 62845216, increment 10856632
+linearPredictor: max memory 477626368, total allocated 295698432, free 232853216, used 62845216, increment 0
+FeaturedSpace: max memory 477626368, total allocated 295698432, free 232853216, used 62845216, increment 0
+Sequential: max memory 477626368, total allocated 295698432, free 232853216, used 62845216, increment 0
+Initial loss: 9.215924750270084
+Initial test loss: 9.215924750270084
+Time since start: 4.454
+760: time = 2.734000 loss = 7.685647 testLoss 8.374984
+Resulting gain: 1.5302780686125406
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus.asc
+Time since start: 6.251
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus.png
+getSamples: max memory 477626368, total allocated 284688384, free 147044432, used 137643952, increment 74798736
+Making features
+makeFeatures: max memory 477626368, total allocated 284688384, free 135959568, used 148728816, increment 11084864
+bradypus_variegatus_0: 
+Regularization values: linear/quadratic/product: 0.219, categorical: 0.250, threshold: 1.590, hinge: 0.500
+41 samples
+Density: max memory 477626368, total allocated 284688384, free 124242424, used 160445960, increment 11717144
+linearPredictor: max memory 477626368, total allocated 284688384, free 124242424, used 160445960, increment 0
+FeaturedSpace: max memory 477626368, total allocated 284688384, free 124242424, used 160445960, increment 0
+Sequential: max memory 477626368, total allocated 284688384, free 124242424, used 160445960, increment 0
+Initial loss: 9.214332393245721
+Initial test loss: 9.214332393245721
+Time since start: 10.252
+820: time = 3.042000 loss = 7.968318 testLoss 8.217894
+Resulting gain: 1.246014147244951
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_0.asc
+Time since start: 12.085
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_0.png
+getSamples: max memory 477626368, total allocated 278396928, free 64174080, used 214222848, increment 53776888
+Making features
+makeFeatures: max memory 477626368, total allocated 278396928, free 52089568, used 226307360, increment 12084512
+bradypus_variegatus_1: 
+Regularization values: linear/quadratic/product: 0.221, categorical: 0.250, threshold: 1.600, hinge: 0.500
+40 samples
+Density: max memory 477626368, total allocated 278921216, free 170155696, used 108765520, increment -117541840
+linearPredictor: max memory 477626368, total allocated 278921216, free 170155696, used 108765520, increment 0
+FeaturedSpace: max memory 477626368, total allocated 278921216, free 170155696, used 108765520, increment 0
+Sequential: max memory 477626368, total allocated 278921216, free 170155696, used 108765520, increment 0
+Initial loss: 9.214133170214879
+Initial test loss: 9.214133170214879
+Time since start: 15.192
+660: time = 2.144000 loss = 7.909534 testLoss 8.121894
+Resulting gain: 1.3045992287554045
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_1.asc
+Time since start: 16.892
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_1.png
+getSamples: max memory 477626368, total allocated 309854208, free 230438200, used 79416008, increment -29349512
+Making features
+makeFeatures: max memory 477626368, total allocated 309854208, free 219704952, used 90149256, increment 10733248
+bradypus_variegatus_2: 
+Regularization values: linear/quadratic/product: 0.221, categorical: 0.250, threshold: 1.600, hinge: 0.500
+40 samples
+Density: max memory 477626368, total allocated 309854208, free 207040936, used 102813272, increment 12664016
+linearPredictor: max memory 477626368, total allocated 309854208, free 207040936, used 102813272, increment 0
+FeaturedSpace: max memory 477626368, total allocated 309854208, free 207040936, used 102813272, increment 0
+Sequential: max memory 477626368, total allocated 309854208, free 207040936, used 102813272, increment 0
+Initial loss: 9.214232786691527
+Initial test loss: 9.214232786691527
+Time since start: 20.208
+620: time = 2.388000 loss = 7.874131 testLoss 8.285515
+Resulting gain: 1.3401020758984217
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_2.asc
+Time since start: 22.138
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_2.png
+getSamples: max memory 477626368, total allocated 308805632, free 223882248, used 84923384, increment -17889888
+Making features
+makeFeatures: max memory 477626368, total allocated 308805632, free 213747304, used 95058328, increment 10134944
+bradypus_variegatus_3: 
+Regularization values: linear/quadratic/product: 0.219, categorical: 0.250, threshold: 1.590, hinge: 0.500
+Time since start: 23.157
+41 samples
+Density: max memory 477626368, total allocated 308805632, free 201220280, used 107585352, increment 12527024
+linearPredictor: max memory 477626368, total allocated 308805632, free 201220280, used 107585352, increment 0
+FeaturedSpace: max memory 477626368, total allocated 308805632, free 201220280, used 107585352, increment 0
+Sequential: max memory 477626368, total allocated 308805632, free 201220280, used 107585352, increment 0
+Initial loss: 9.214431989879436
+Initial test loss: 9.214431989879436
+Time since start: 26.687
+1000: time = 3.525000 loss = 7.941793 testLoss 8.313493
+Resulting gain: 1.272638629001543
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_3.asc
+Time since start: 28.518
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_3.png
+getSamples: max memory 477626368, total allocated 292552704, free 101944608, used 190608096, increment 83022744
+Making features
+makeFeatures: max memory 477626368, total allocated 292552704, free 92910552, used 199642152, increment 9034056
+bradypus_variegatus_4: 
+Regularization values: linear/quadratic/product: 0.221, categorical: 0.250, threshold: 1.600, hinge: 0.500
+Time since start: 29.555
+40 samples
+Density: max memory 477626368, total allocated 292552704, free 81561408, used 210991296, increment 11349144
+linearPredictor: max memory 477626368, total allocated 292552704, free 81561408, used 210991296, increment 0
+FeaturedSpace: max memory 477626368, total allocated 292552704, free 81561408, used 210991296, increment 0
+Sequential: max memory 477626368, total allocated 292552704, free 81561408, used 210991296, increment 0
+Initial loss: 9.214332393245721
+Initial test loss: 9.214332393245721
+Time since start: 33.329
+1000: time = 3.770000 loss = 8.053955 testLoss 8.827865
+Resulting gain: 1.1603778862194911
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_4.asc
+Time since start: 35.092
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_4.png
+getSamples: max memory 477626368, total allocated 300941312, free 103066456, used 197874856, increment -13116440
+Making features
+makeFeatures: max memory 477626368, total allocated 300941312, free 94018224, used 206923088, increment 9048232
+bradypus_variegatus_5: 
+Regularization values: linear/quadratic/product: 0.221, categorical: 0.250, threshold: 1.600, hinge: 0.500
+40 samples
+Density: max memory 477626368, total allocated 300941312, free 81994384, used 218946928, increment 12023840
+linearPredictor: max memory 477626368, total allocated 300941312, free 81994384, used 218946928, increment 0
+FeaturedSpace: max memory 477626368, total allocated 300941312, free 81994384, used 218946928, increment 0
+Sequential: max memory 477626368, total allocated 300941312, free 81994384, used 218946928, increment 0
+Initial loss: 9.214133170214879
+Initial test loss: 9.214133170214879
+Time since start: 39.228
+820: time = 3.143000 loss = 7.818195 testLoss 8.260527
+Resulting gain: 1.3959382634289863
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_5.asc
+Time since start: 41.289
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_5.png
+getSamples: max memory 477626368, total allocated 306708480, free 141319712, used 165388768, increment -53558160
+Making features
+Time since start: 42.339
+makeFeatures: max memory 477626368, total allocated 306708480, free 130962016, used 175746464, increment 10357696
+bradypus_variegatus_6: 
+Regularization values: linear/quadratic/product: 0.219, categorical: 0.250, threshold: 1.590, hinge: 0.500
+41 samples
+Density: max memory 477626368, total allocated 306708480, free 118122728, used 188585752, increment 12839288
+linearPredictor: max memory 477626368, total allocated 306708480, free 118122728, used 188585752, increment 0
+FeaturedSpace: max memory 477626368, total allocated 306708480, free 118122728, used 188585752, increment 0
+Sequential: max memory 477626368, total allocated 306708480, free 118122728, used 188585752, increment 0
+Initial loss: 9.214431989879436
+Initial test loss: 9.214431989879436
+Time since start: 46.055
+900: time = 3.621000 loss = 8.129337 testLoss 7.899400
+Resulting gain: 1.0850948086329737
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_6.asc
+Time since start: 48.016
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_6.png
+getSamples: max memory 477626368, total allocated 304611328, free 219077016, used 85534312, increment -103051440
+Making features
+makeFeatures: max memory 477626368, total allocated 304611328, free 208754120, used 95857208, increment 10322896
+bradypus_variegatus_7: 
+Regularization values: linear/quadratic/product: 0.221, categorical: 0.250, threshold: 1.600, hinge: 0.500
+Time since start: 49.111
+40 samples
+Density: max memory 477626368, total allocated 304611328, free 199154832, used 105456496, increment 9599288
+linearPredictor: max memory 477626368, total allocated 304611328, free 199154832, used 105456496, increment 0
+FeaturedSpace: max memory 477626368, total allocated 304611328, free 199154832, used 105456496, increment 0
+Sequential: max memory 477626368, total allocated 304611328, free 199154832, used 105456496, increment 0
+Initial loss: 9.214332393245721
+Initial test loss: 9.214332393245721
+Time since start: 52.475
+880: time = 3.359000 loss = 7.921480 testLoss 8.076527
+Resulting gain: 1.2928523330292094
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_7.asc
+Time since start: 54.585
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_7.png
+Time since start: 55.616
+getSamples: max memory 477626368, total allocated 292552704, free 133614544, used 158938160, increment 53481664
+Making features
+makeFeatures: max memory 477626368, total allocated 292552704, free 124016616, used 168536088, increment 9597928
+bradypus_variegatus_8: 
+Regularization values: linear/quadratic/product: 0.221, categorical: 0.250, threshold: 1.600, hinge: 0.500
+40 samples
+Density: max memory 477626368, total allocated 292552704, free 112260168, used 180292536, increment 11756448
+linearPredictor: max memory 477626368, total allocated 292552704, free 112260168, used 180292536, increment 0
+FeaturedSpace: max memory 477626368, total allocated 292552704, free 112260168, used 180292536, increment 0
+Sequential: max memory 477626368, total allocated 292552704, free 112260168, used 180292536, increment 0
+Initial loss: 9.214232786691527
+Initial test loss: 9.214232786691527
+Time since start: 58.84
+800: time = 3.065000 loss = 8.127004 testLoss 7.955312
+Resulting gain: 1.0872291801819056
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_8.asc
+Time since start: 60.679
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_8.png
+getSamples: max memory 477626368, total allocated 289931264, free 70144648, used 219786616, increment 39494080
+Making features
+makeFeatures: max memory 477626368, total allocated 289931264, free 58933280, used 230997984, increment 11211368
+bradypus_variegatus_9: 
+Regularization values: linear/quadratic/product: 0.219, categorical: 0.250, threshold: 1.590, hinge: 0.500
+Time since start: 61.693
+41 samples
+Density: max memory 477626368, total allocated 289931264, free 47367952, used 242563312, increment 11565328
+linearPredictor: max memory 477626368, total allocated 289931264, free 47367952, used 242563312, increment 0
+FeaturedSpace: max memory 477626368, total allocated 289931264, free 47367952, used 242563312, increment 0
+Sequential: max memory 477626368, total allocated 289931264, free 47367952, used 242563312, increment 0
+Initial loss: 9.214431989879436
+Initial test loss: 9.214431989879436
+Time since start: 64.912
+800: time = 3.214000 loss = 8.054605 testLoss 8.054405
+Resulting gain: 1.1598273708313478
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/bradypus_variegatus_9.asc
+Time since start: 66.84
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/bradypus_variegatus_9.png
+getSamples: max memory 477626368, total allocated 306708480, free 148107248, used 158601232, increment -83962080
+Making features
+makeFeatures: max memory 477626368, total allocated 306708480, free 137926176, used 168782304, increment 10181072
+microryzomys_minutus: 
+Regularization values: linear/quadratic/product: 0.210, categorical: 0.250, threshold: 1.560, hinge: 0.500
+Time since start: 67.863
+44 samples
+Density: max memory 477626368, total allocated 306708480, free 128431696, used 178276784, increment 9494480
+linearPredictor: max memory 477626368, total allocated 306708480, free 128431696, used 178276784, increment 0
+FeaturedSpace: max memory 477626368, total allocated 306708480, free 128431696, used 178276784, increment 0
+Sequential: max memory 477626368, total allocated 306708480, free 128431696, used 178276784, increment 0
+Initial loss: 9.214730720277476
+Initial test loss: 9.214730720277476
+Time since start: 71.128
+860: time = 3.258000 loss = 6.099792 testLoss 5.976251
+Resulting gain: 3.1149387833824207
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus.asc
+Time since start: 72.923
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus.png
+getSamples: max memory 477626368, total allocated 294649856, free 133987184, used 160662672, increment -17614112
+Making features
+makeFeatures: max memory 477626368, total allocated 294649856, free 122835976, used 171813880, increment 11151208
+microryzomys_minutus_0: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+Time since start: 73.935
+31 samples
+Density: max memory 477626368, total allocated 294649856, free 111134184, used 183515672, increment 11701792
+linearPredictor: max memory 477626368, total allocated 294649856, free 111134184, used 183515672, increment 0
+FeaturedSpace: max memory 477626368, total allocated 294649856, free 111134184, used 183515672, increment 0
+Sequential: max memory 477626368, total allocated 294649856, free 111134184, used 183515672, increment 0
+Initial loss: 9.213435576883485
+Initial test loss: 9.213435576883485
+Time since start: 76.277
+660: time = 2.338000 loss = 5.865264 testLoss 6.083326
+Resulting gain: 3.3481718264576417
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_0.asc
+Time since start: 78.08
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_0.png
+getSamples: max memory 477626368, total allocated 289931264, free 85725768, used 204205496, increment 20689824
+Making features
+makeFeatures: max memory 477626368, total allocated 289931264, free 73277576, used 216653688, increment 12448192
+microryzomys_minutus_1: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 290455552, free 191092816, used 99362736, increment -117290952
+linearPredictor: max memory 477626368, total allocated 290455552, free 191092816, used 99362736, increment 0
+FeaturedSpace: max memory 477626368, total allocated 290455552, free 191092816, used 99362736, increment 0
+Sequential: max memory 477626368, total allocated 290455552, free 191092816, used 99362736, increment 0
+Initial loss: 9.21333588095598
+Initial test loss: 9.21333588095598
+Time since start: 80.891
+540: time = 1.903000 loss = 6.044869 testLoss 5.816650
+Resulting gain: 3.168466385569393
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_1.asc
+Time since start: 82.688
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_1.png
+getSamples: max memory 477626368, total allocated 306708480, free 187547632, used 119160848, increment 19798112
+Making features
+makeFeatures: max memory 477626368, total allocated 306708480, free 176295000, used 130413480, increment 11252632
+microryzomys_minutus_2: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 306708480, free 166892624, used 139815856, increment 9402376
+linearPredictor: max memory 477626368, total allocated 306708480, free 166892624, used 139815856, increment 0
+FeaturedSpace: max memory 477626368, total allocated 306708480, free 166892624, used 139815856, increment 0
+Sequential: max memory 477626368, total allocated 306708480, free 166892624, used 139815856, increment 0
+Initial loss: 9.21333588095598
+Initial test loss: 9.21333588095598
+Time since start: 86.738
+920: time = 3.085000 loss = 5.992308 testLoss 6.265019
+Resulting gain: 3.221027460862123
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_2.asc
+Time since start: 88.491
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_2.png
+getSamples: max memory 477626368, total allocated 300417024, free 147657776, used 152759248, increment 12943392
+Making features
+makeFeatures: max memory 477626368, total allocated 300417024, free 137666992, used 162750032, increment 9990784
+microryzomys_minutus_3: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 300417024, free 125643680, used 174773344, increment 12023312
+linearPredictor: max memory 477626368, total allocated 300417024, free 125643680, used 174773344, increment 0
+FeaturedSpace: max memory 477626368, total allocated 300417024, free 125643680, used 174773344, increment 0
+Sequential: max memory 477626368, total allocated 300417024, free 125643680, used 174773344, increment 0
+Initial loss: 9.21333588095598
+Initial test loss: 9.21333588095598
+Time since start: 91.994
+760: time = 2.584000 loss = 5.961750 testLoss 6.315373
+Resulting gain: 3.25158557788997
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_3.asc
+Time since start: 93.695
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_3.png
+getSamples: max memory 477626368, total allocated 296222720, free 104406352, used 191816368, increment 17043024
+Making features
+makeFeatures: max memory 477626368, total allocated 296222720, free 96106256, used 200116464, increment 8300096
+microryzomys_minutus_4: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 304611328, free 225760280, used 78851048, increment -121265416
+linearPredictor: max memory 477626368, total allocated 304611328, free 225760280, used 78851048, increment 0
+FeaturedSpace: max memory 477626368, total allocated 304611328, free 225760280, used 78851048, increment 0
+Sequential: max memory 477626368, total allocated 304611328, free 225760280, used 78851048, increment 0
+Initial loss: 9.213435576883485
+Initial test loss: 9.213435576883485
+Time since start: 96.898
+620: time = 2.345000 loss = 6.169959 testLoss 5.769934
+Resulting gain: 3.043476635535108
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_4.asc
+Time since start: 98.795
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_4.png
+getSamples: max memory 477626368, total allocated 284688384, free 196943816, used 87744568, increment 8893520
+Making features
+makeFeatures: max memory 477626368, total allocated 284688384, free 188534600, used 96153784, increment 8409216
+microryzomys_minutus_5: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+Time since start: 99.874
+31 samples
+Density: max memory 477626368, total allocated 284688384, free 177140008, used 107548376, increment 11394592
+linearPredictor: max memory 477626368, total allocated 284688384, free 177140008, used 107548376, increment 0
+FeaturedSpace: max memory 477626368, total allocated 284688384, free 177140008, used 107548376, increment 0
+Sequential: max memory 477626368, total allocated 284688384, free 177140008, used 107548376, increment 0
+Initial loss: 9.213435576883485
+Initial test loss: 9.213435576883485
+Time since start: 102.808
+840: time = 2.927000 loss = 6.173243 testLoss 5.880608
+Resulting gain: 3.0401928532066664
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_5.asc
+Time since start: 104.616
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_5.png
+getSamples: max memory 477626368, total allocated 279969792, free 52762904, used 227206888, increment 119658512
+Making features
+makeFeatures: max memory 477626368, total allocated 279969792, free 43320760, used 236649032, increment 9442144
+microryzomys_minutus_6: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 302514176, free 171977288, used 130536888, increment -106112144
+linearPredictor: max memory 477626368, total allocated 302514176, free 171977288, used 130536888, increment 0
+FeaturedSpace: max memory 477626368, total allocated 302514176, free 171977288, used 130536888, increment 0
+Sequential: max memory 477626368, total allocated 302514176, free 171977288, used 130536888, increment 0
+Initial loss: 9.213435576883485
+Initial test loss: 9.213435576883485
+Time since start: 108.929
+940: time = 3.325000 loss = 6.112788 testLoss 6.193938
+Resulting gain: 3.1006476275075494
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_6.asc
+Time since start: 110.835
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_6.png
+getSamples: max memory 477626368, total allocated 300417024, free 241122488, used 59294536, increment -71242352
+Making features
+Time since start: 111.836
+makeFeatures: max memory 477626368, total allocated 300417024, free 230923496, used 69493528, increment 10198992
+microryzomys_minutus_7: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 300417024, free 221836392, used 78580632, increment 9087104
+linearPredictor: max memory 477626368, total allocated 300417024, free 221836392, used 78580632, increment 0
+FeaturedSpace: max memory 477626368, total allocated 300417024, free 221836392, used 78580632, increment 0
+Sequential: max memory 477626368, total allocated 300417024, free 221836392, used 78580632, increment 0
+Initial loss: 9.21333588095598
+Initial test loss: 9.21333588095598
+Time since start: 114.64
+760: time = 2.714000 loss = 6.440526 testLoss 5.799786
+Resulting gain: 2.772810253996151
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_7.asc
+Time since start: 116.357
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_7.png
+getSamples: max memory 477626368, total allocated 299892736, free 140747096, used 159145640, increment 80565008
+Making features
+makeFeatures: max memory 477626368, total allocated 299892736, free 129780728, used 170112008, increment 10966368
+microryzomys_minutus_8: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 299892736, free 117191200, used 182701536, increment 12589528
+linearPredictor: max memory 477626368, total allocated 299892736, free 117191200, used 182701536, increment 0
+FeaturedSpace: max memory 477626368, total allocated 299892736, free 117191200, used 182701536, increment 0
+Sequential: max memory 477626368, total allocated 299892736, free 117191200, used 182701536, increment 0
+Initial loss: 9.21333588095598
+Initial test loss: 9.21333588095598
+Time since start: 119.851
+740: time = 2.567000 loss = 6.100215 testLoss 6.146267
+Resulting gain: 3.113121172195017
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_8.asc
+Time since start: 121.641
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_8.png
+getSamples: max memory 477626368, total allocated 303562752, free 173477088, used 130085664, increment -52615872
+Making features
+makeFeatures: max memory 477626368, total allocated 303562752, free 163596360, used 139966392, increment 9880728
+microryzomys_minutus_9: 
+Regularization values: linear/quadratic/product: 0.247, categorical: 0.250, threshold: 1.690, hinge: 0.500
+31 samples
+Density: max memory 477626368, total allocated 303562752, free 151397792, used 152164960, increment 12198568
+linearPredictor: max memory 477626368, total allocated 303562752, free 151397792, used 152164960, increment 0
+FeaturedSpace: max memory 477626368, total allocated 303562752, free 151397792, used 152164960, increment 0
+Sequential: max memory 477626368, total allocated 303562752, free 151397792, used 152164960, increment 0
+Initial loss: 9.213435576883485
+Initial test loss: 9.213435576883485
+Time since start: 124.933
+660: time = 2.294000 loss = 6.014846 testLoss 6.302709
+Resulting gain: 3.198589393334953
+Projecting...
+Writing file /media/resbi/DATA/Gits/Maxent/Output/microryzomys_minutus_9.asc
+Time since start: 126.787
+Writing /media/resbi/DATA/Gits/Maxent/Output/plots/microryzomys_minutus_9.png
+Ending
